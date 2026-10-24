@@ -1,0 +1,6 @@
+/* Screenshots: a frame so white pages do not blend into the page. */
+.md-typeset img.shot {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}

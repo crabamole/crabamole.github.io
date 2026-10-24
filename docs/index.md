@@ -61,6 +61,16 @@ through one HTTPS host.**
 
 </div>
 
+## What it looks like
+
+![The web client: users log in with single sign-on before they can connect](assets/web-client-login.png){ .shot }
+
+The web client in a browser. Users log in through your identity provider before they can connect.
+
+![The console audit log: clipboard text that arrived on devices, by user, format and size](assets/console-audit-clipboard.png){ .shot }
+
+The console's audit log. Each paste into a device is recorded with the viewer, the user, the format and the size; never the text.
+
 ## How it fits together
 
 ```mermaid

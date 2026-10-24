@@ -9,6 +9,8 @@ repo_name: crabamole
 theme:
   name: material
   custom_dir: overrides
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
   features:
     - content.code.copy
   palette:
@@ -26,6 +28,9 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Light mode
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
