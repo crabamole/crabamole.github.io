@@ -8,6 +8,7 @@ repo_name: crabamole
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - content.code.copy
   palette:
