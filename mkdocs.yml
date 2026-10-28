@@ -11,6 +11,8 @@ theme:
   custom_dir: overrides
   logo: assets/logo.svg
   favicon: assets/favicon.svg
+  icon:
+    repo: fontawesome/brands/github
   features:
     - content.code.copy
   palette:
@@ -28,6 +30,12 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Light mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/crabamole
+      name: crabamole on GitHub
 
 extra_css:
   - stylesheets/extra.css
