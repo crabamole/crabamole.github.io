@@ -29,6 +29,8 @@ through one HTTPS host.**
 
     Login through your OIDC provider only. No passwords are stored. Until the user signs in,
     the apps show a login button instead of the ID field.
+    Optionally, a user signed in on a device connects to it without the device password
+    ([same-user access](features/same-user-access.md)).
 
 -   :material-shield-lock: **One HTTPS host**
 
